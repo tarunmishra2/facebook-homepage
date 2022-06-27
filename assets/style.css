@@ -9,7 +9,7 @@ body {
 }
 
 .user__avatar {
-  border-radius: 45px;
+  border-radius: 5rem;
   width: 45px;
 }
 
@@ -365,12 +365,12 @@ body {
 
 @media only screen and (max-width: 576px) {
   
-  html, body{
+  html, body {
     margin-inline-end: 0;
     overflow-x: hidden;
   }
   
-  .header{
+  .header {
     padding-inline: 1rem;
     padding-block: .65rem;
   }
@@ -379,7 +379,7 @@ body {
     display: none;
   }
 
-  .header__input{
+  .header__input {
     padding: .7rem;
   }
 
@@ -392,25 +392,25 @@ body {
     padding: 0;
   }
 
-  .storyReel{
+  .storyReel {
     width: 100%;
     margin-left: .65rem;
     padding-top: 1rem;
   }
 
-  .messageSender{
+  .messageSender {
     width: 100%;
   }
 
-  .messageSender__option{
+  .messageSender__option {
     overflow: hidden;
   }
 
-  .messageSender__option h3{
+  .messageSender__option h3 {
     display: none;
   }
   
-  .post{
+  .post {
     width: 95%;
   }
 }
