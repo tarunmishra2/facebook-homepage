@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook Homepage</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+    <link rel="manifest" href="/assets/images/site.webmanifest">
+
+  </head>
+  <body>
+
+    <!-- HEADER -->
+    <div class="header">
+      <div class="header__left">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png"
+          alt=""
+        />
+        <div class="header__input">
+          <i class='bx bx-search' style='color:#696868'></i>
+          <input type="text" placeholder="Search Facebook">
+        </div>
+      </div>
+
+      <div class="header__middle">
+        <div class="header__option active">
+          <span class="material-icons"> home </span>
+        </div>
+        <div class="header__option">
+          <span class="material-icons"> subscriptions </span>
+        </div>
+        <div class="header__option">
+          <span class="material-icons"> supervised_user_circle </span>
+        </div>
+        <div class="header__option">
+          <i class='bx bxs-cube-alt material-icons'></i>
+        </div>
+      </div>
+
+      <div class="header__right">
+        <div class="header__info">
+        </div>
+        <i class='bx bxs-grid material-icons'></i>
+        <i class='bx bxl-messenger material-icons'></i>
+      <i class='bx bxs-bell material-icons'></i>
+        <i class='bx bxs-user-circle material-icons'></i>
+      </div>
+    </div>
+
+    <!-- MAIN BODY -->
+    <div class="main__body">
+      
+      <!-- SIDEBAR -->
+      <div class="sidebar">
+        <div class="sidebarRow">
+          <i class='bx bxs-user-circle material-icons'></i>
+          <h4>Tarun Mishra</h4>
+        </div>
+
+        <div class="sidebarRow">
+          <i class='bx bxs-group material-icons'></i>
+          <h4>Friends</h4>
+        </div>
+
+        <div class="sidebarRow">
+          <i class='bx bxs-contact material-icons'></i>
+          <h4>Group</h4>
+        </div>
+
+        <div class="sidebarRow">
+          <i class='bx bxs-store material-icons'></i>
+          <h4>Marketplace</h4>
+        </div>
+
+        <div class="sidebarRow">
+          <i class='bx bxs-videos material-icons'></i>
+          <h4>Watch</h4>
+        </div>
+
+        <div class="sidebarRow">
+          <i class='bx bxs-time-five material-icons'></i>
+          <h4>Memories</h4>
+        </div>
+
+        <div class="sidebarRow">
+          <i class='bx bxs-bookmarks material-icons'></i>
+          <h4>Saved</h4>
+        </div>
+
+        <div class="sidebarRow">
+          <i class='bx bxs-flag-alt material-icons'></i>
+          <h4>Pages</h4>
+        </div>
+
+        <div class="sidebarRow">
+          <i class='bx bx-calendar-event material-icons'></i>
+          <h4>Events</h4>
+        </div>
+
+        <div class="sidebarRow">
+          <span class="material-icons"> expand_more </span>
+          <h4>See more</h4>
+        </div>
+      </div>
+
+      <!-- FEED -->
+      <div class="feed">
+        <div class="storyReel">
+
+          <!-- STORY 1 -->
+          <div style="background-image: url(/assets/images/story-gradient.jpg);" class="story">
+            <h4 style="margin-left: 12px;">Create story</h4>
+            </div>
+
+            <!-- STORY 2 -->
+          <div style="background-image: url(images/rdj-fbs.jpg);" class="story">
+            <img
+              class="user__avatar story__avatar"
+              src="images/robert-story.jpg">
+            <h4>Robert <br>Downey Jr</h4>
+          </div>
+
+          <!-- STORY 3 -->
+          <div
+            style="
+              background-image: url(images/lebron-fbs.jpg);
+            "
+            class="story"
+          >
+          <img class="user__avatar story__avatar" src="/assets/images/lebron-story.jpg" alt="">
+            <h4>Lebron James</h4>
+          </div>
+
+          <!-- STORY 4 -->
+          <div
+            style="
+              background-image: url(/assets/images/drake-fbs.jpg);
+            "
+            class="story"
+          >
+          <img class="user__avatar story__avatar" src="images/drake-story.jpg" alt="">
+            <h4>Drake</h4>
+          </div>
+
+          <!-- STORY 4 -->
+          <div
+            style="
+              background-image: url(images/ronaldo-fbs.jpg);
+            "
+            class="story lastStory"
+          >
+            <img
+              class="user__avatar story__avatar"
+              src="images/ronaldo-story.jpg"
+              alt=""
+            />
+            <h4>Cristiano Ronaldo</h4>
+          </div>
+        </div>
+
+        <!-- STATUS MESSAGE -->
+        <div class="messageSender">
+          <div class="messageSender__top">
+            <img class="user__avatar" src="https://www.kindpng.com/picc/m/33-338711_circle-user-icon-blue-hd-png-download.png" alt="">
+            <form>
+              <input class="messageSender__input" placeholder="What's on your mind, Tarun?" type="text" />
+            </form>
+          </div>
+
+          <div class="messageSender__bottom">
+            <div class="messageSender__option">
+              <i class='bx bxs-video material-icons' style='color:#ff0036'></i>
+              <h3>Live video</h3>
+            </div>
+
+            <div class="messageSender__option">
+              <i class='bx bxs-photo-album material-icons' style='color:rgba(60, 255, 0, 0.938)'></i>
+              <h3>Photo/video</h3>
+            </div>
+
+            <div class="messageSender__option">
+              <i class='bx bx-smile material-icons' style='color:rgba(241,255,0,0.91)'></i>
+              <h3>Feeling/Activity</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- POST 1 -->
+        <div class="post">
+          <div class="post__top">
+            <img class="user__avatar post__avatar" src="https://cdn.iconscout.com/icon/free/png-256/ferrari-4-202771.png" alt="">
+            <div class="post__topInfo">
+              <h3>Scuderia Ferrari</h3>
+              <p>16h · &#9881;</p>
+            </div>
+          </div>
+
+          <div class="post__bottom">
+            <p>A long day of Pirelli Motorsport test done with Carlos Sainz and Charles Leclerc at Mugello.
+            #essereFerrari 🔴</p>
+          </div>
+
+          <div class="post__image">
+            <img
+              src="https://video.frpr1-2.fna.fbcdn.net/v/t39.30808-6/290294877_5875768192452756_6257930776433380156_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=0bl1c8TiZW8AX8qI0N3&_nc_ht=video.frpr1-2.fna&oh=00_AT9Ain5IW4fRXCb3SyzA4ewswmDU81cxxc-IbJKit-ntig&oe=62BBBC68"
+              alt=""
+            />
+          </div>
+
+          <div class="post__options">
+            <div class="post__option">
+              <i class='bx bx-like material-icons'></i>
+              <p>Like</p>
+            </div>
+
+            <div class="post__option">
+              <i class='bx bx-comment material-icons'></i>
+              <p>Comment</p>
+            </div>
+
+            <div class="post__option">
+              <i class='bx bx-share bx-flip-horizontal material-icons'></i>
+              <p>Share</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- POST 2 -->
+        <div class="post">
+          <div class="post__top">
+           <img class="user__avatar post__avatar" src="/assets/images/tom-dp.jpg" alt="">
+            <div class="post__topInfo">
+              <h3>Tom Cruise</h3>
+              <p>1 June at 00:29 · &#9881;</p>
+            </div>
+          </div>
+
+          <div class="post__bottom">
+            <p>Thank you to everyone who saw Top Gun: Maverick and helped make it a historic opening weekend.</p>
+          </div>
+
+          <div class="post__options">
+            <div class="post__option">
+              <i class='bx bx-like material-icons'></i>
+              <p>Like</p>
+            </div>
+
+            <div class="post__option">
+              <i class='bx bx-comment material-icons'></i>
+              <p>Comment</p>
+            </div>
+
+            <div class="post__option">
+              <i class='bx bx-share bx-flip-horizontal material-icons'></i>
+              <p>Share</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SPONSORED -->
+      <div style="flex: 0.33" class="sponsored" id="sponsored">
+        <h4>Sponsored</h4>
+        <img src="/assets/images/yt-ad1.png" alt="">
+        <a href="https://youtube.com/premium" style="margin: 1rem 0 .5rem -1rem; color:#002fff; text-decoration: none;">youtube.com/premium</a>
+        <p style="color:#464545; margin: .25rem 0 0 -1rem;">Now get 3 months of ad-free experience at the price of 1.</p>
+      </div>
+
+    </div>
+
+  </body>
+</html>
