@@ -1,4 +1,4 @@
 # Facebook Homepage
 Facebook.com homepage replica made using entirely using HTML and CSS.
 
-Check it out here - facebook-hp.netlify.app/
+Check it out here - https://facebook-hp.netlify.app/
